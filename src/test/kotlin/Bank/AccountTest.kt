@@ -10,4 +10,11 @@ class AccountTest {
         val account = Account()
         assertEquals("date || credit || debit || balance", account.printStatement())
     }
+
+//    @Test
+//    fun `Account records a transaction when a deposit is made`() {
+//        val account = Account()
+//        account.deposit(1.0)
+//        assertEquals("date || credit || debit || balance", account.printStatement())
+//    }
 }
