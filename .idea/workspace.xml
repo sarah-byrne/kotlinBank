@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712b8b38-b770-450f-aa9f-849ad187a18e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Bank/Transaction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Bank/TransactionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#15#68#0" expanded="true" />
               </folding>
@@ -90,20 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/Bank/TransactionTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="e#14#127#0" expanded="true" />
               </folding>
@@ -127,10 +125,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/kotlin/Bank/Account.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/Bank/TransactionTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Bank/Transaction.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/Bank/TransactionTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt" />
       </list>
     </option>
   </component>
@@ -254,7 +252,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTest">
+  <component name="RunManager" selected="JUnit.AccountTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kotlinLearning.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Bank" />
+      <option name="MAIN_CLASS_NAME" value="Bank.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinLearning.test" />
       <extension name="coverage">
@@ -266,22 +279,6 @@
       <option name="PACKAGE_NAME" value="Bank" />
       <option name="MAIN_CLASS_NAME" value="Bank.TransactionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionTest.Transaction can be a credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlinLearning.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Bank" />
-      <option name="MAIN_CLASS_NAME" value="Bank.TransactionTest" />
-      <option name="METHOD_NAME" value="Transaction can be a credit" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.TransactionTest" />
         <item itemvalue="JUnit.TransactionTest.Transaction has the resulting balance" />
         <item itemvalue="JUnit.TransactionTest.Transaction has the date it was created" />
         <item itemvalue="JUnit.TransactionTest.Transaction can be created" />
-        <item itemvalue="JUnit.TransactionTest.Transaction can be a credit" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +373,12 @@
     <history-entry file="TransactionTest_Transaction_has_the_date_it_was_created - 2019.04.11 at 12h 41m 49s.xml">
       <configuration name="TransactionTest.Transaction has the date it was created" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTest_Transaction_has_the_resulting_balance - 2019.04.11 at 14h 12m 08s.xml">
+      <configuration name="TransactionTest.Transaction has the resulting balance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTest - 2019.04.11 at 14h 12m 14s.xml">
+      <configuration name="TransactionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1099" extended-state="6" />
@@ -388,16 +391,16 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969216" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.20556107" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32969216" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32969216" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
@@ -413,23 +416,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/kotlinLearning/AppTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -459,11 +445,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/Bank/TransactionTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="405">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="e#14#127#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/Bank/AccountTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bank/Account.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
